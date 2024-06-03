@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/online_shopping
+    username: root
+    password: 20021217
+  data:
+    redis:
+      host: localhost
+      port: 6379
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+file.upload-dir: E:/商品封面
